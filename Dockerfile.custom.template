@@ -1,0 +1,10 @@
+FROM scratch
+
+MAINTAINER You-Sheng Yang <vicamo@gmail.com>
+LABEL url="@IMAGE_BASE_URL@" \
+      revision="@IMAGE_REVISION@" \
+      suite="@IMAGE_SUITE@" \
+      sha1sum="@IMAGE_SHA1SUM@" \
+      type="custom"
+
+ADD @IMAGE_SUITE@-preinstalled-touch-@IMAGE_ARCH@.custom.tar.gz /
