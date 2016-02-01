@@ -1,11 +1,6 @@
 FROM vicamo/qemu-user-static:@IMAGE_QEMU_ARCH@
 
 MAINTAINER You-Sheng Yang <vicamo@gmail.com>
-LABEL url="@IMAGE_BASE_URL@" \
-      revision="@IMAGE_REVISION@" \
-      suite="@IMAGE_SUITE@" \
-      sha1sum="@IMAGE_SHA1SUM@" \
-      type="rootfs"
 
 ADD @IMAGE_SUITE@-preinstalled-touch-@IMAGE_ARCH@.tar.gz /
 
