@@ -6,7 +6,8 @@ set -e
 IMAGE_REPO=phablet/ubuntu-touch-daily-preinstalled
 
 IMAGE_BASE_URL_vivid=http://cdimage.ubuntu.com/ubuntu-touch/vivid/daily-preinstalled/current
-IMAGE_BASE_URL_xenial=http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current
+IMAGE_BASE_URL_xenial=http://cdimage.ubuntu.com/ubuntu-touch/xenial/daily-preinstalled/current
+IMAGE_BASE_URL_yakkety=http://cdimage.ubuntu.com/ubuntu-touch/daily-preinstalled/current
 
 QEMU_ARCH_armhf=arm
 QEMU_ARCH_i386=i386
